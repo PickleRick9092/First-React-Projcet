@@ -2,8 +2,8 @@ import React from 'react'
 
 const ProductCard = ({product}) => {
   return ( 
-    <div>
-    <div>
+    
+    <div >
         <div className='product'>
           <img src={product.src} alt="" />
           <button className='name'>{product.name}</button>
@@ -11,7 +11,7 @@ const ProductCard = ({product}) => {
   
         </div>
     </div>
-    </div>
+    
   )
 }
 

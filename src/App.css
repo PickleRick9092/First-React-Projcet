@@ -1,10 +1,16 @@
+@font-face {
+  font-family: 'Dana';
+  src: local('Dana'),url(/src/fonts/Dana-Medium.woff) format('truetype');
+}
 #root {
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   height:100vh;
+  background-color: black;
 }
+
 
 .logo {
   height: 6em;
@@ -74,15 +80,18 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    font-size: 18px;
-    background-color:#278be9;
+    font-size: 19px;
+    background-color: rgba(255, 0, 0, 0.767);
+    font-family:'Dana';
   }
   .price {
-    font-size: 19px;
+    font-size: 20px;
     color:black; 
+    font-family:'Dana';
   }
   .see{
     color:rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 21px;
     background-color: rgba(255, 0, 0, 0.767);
+    font-family:'Dana';
   }
